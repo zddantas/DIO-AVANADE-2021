@@ -1,0 +1,21 @@
+body {
+    background-color: burlywood;
+}
+
+
+#title, .subtitle, .post_title {
+    color: lightseagreen;
+}
+
+.post_title {
+    font-size: 16px;
+    font-style: italic;
+    font-weight: 900;
+}
+
+.post {
+    background-color: ivory;
+    padding: 10px;
+    border: 3px solid rgb(230, 98, 75);
+    margin: 10px;
+}
