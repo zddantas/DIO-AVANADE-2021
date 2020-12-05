@@ -1,10 +1,24 @@
 body {
     background-color: burlywood;
+    max-width: 900px;
+    margin: auto;
 }
 
 
 #title, .subtitle, .post_title {
     color: lightseagreen;
+}
+
+#title {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 50px;
+    font-weight: bold;
+    text-transform: uppercase;
+    ;
+}
+
+a {
+    text-decoration: underline;
 }
 
 .post_title {
@@ -17,5 +31,38 @@ body {
     background-color: ivory;
     padding: 10px;
     border: 3px solid rgb(230, 98, 75);
+    border-top: 3px dashed rgb(53, 224, 82);
+    border-bottom-color: black;
+    border-top-left-radius: 5%;
+    border-top-right-radius: 5%;
     margin: 10px;
+    text-align: justify;
+}
+
+.rodape {
+    padding: 40px;
+    border: 5px solid red;
+    border-radius: 50%;
+    margin: auto;
+}
+
+.imagem1 {
+    max-width: 100px
+}
+
+.imagem2 {
+    width: 50%;
+    align-content: center;
+    display: block;
+    margin: auto;
+}
+
+.rodape2 {
+    list-style-type: none;
+    padding-left: 15px;
+}
+
+.rodape2 li a {
+    text-decoration: none;
+    color: darkgreen;
 }
